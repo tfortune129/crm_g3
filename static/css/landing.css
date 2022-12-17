@@ -104,7 +104,10 @@ section {
     display: block;
     text-align: center;
 }
-
+/* .thumb {
+    display:flex;
+    justify-content: space-around;
+} */
 
 
 footer .container-fluid {
