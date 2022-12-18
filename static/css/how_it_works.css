@@ -1,0 +1,139 @@
+.container-fluid .text-dark:hover {
+    background-color: rgb(8, 80, 248) !important;
+    color: white !important;
+    padding: 20%;
+}
+
+.try-it {
+    background-color: rgb(8, 80, 248);
+    border: 2px solid rgb(8, 80, 248);
+    border-radius: 10%;
+}
+
+.sign-in {
+    border: 2px solid rgb(8, 80, 248);
+    border-radius: 10%;
+}
+
+.focus {
+    font-size: min(5vw, 80px);
+    font-weight: bold;
+}
+
+.handle {
+    font-size: min(4vw, 25px);
+}
+
+.subscription {
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sign-btn {
+    display: inline-block;
+    border: 2px solid blue;
+    background: rgb(8, 80, 248);
+    color: white;
+    max-width: 40%;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 15%;
+    margin-right: 10px;
+}
+
+.sign-btn:hover,
+.chat-btn:hover,
+.sign-in:hover,
+.try-it:hover {
+    background-color: rgb(40, 167, 68);
+    border: 2px solid rgb(40, 167, 68);
+}
+
+.chat-btn:hover,
+.sign-in:hover {
+    color: white;
+}
+
+.chat-btn {
+    display: inline-block;
+    border: 2px solid rgb(8, 80, 248);
+    color: rgb(8, 80, 248);
+    max-width: 40%;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 15%;
+}
+
+.already {
+    color: grey;
+    margin-top: 30px;
+}
+
+.already a {
+    text-decoration: none;
+    color: grey;
+}
+
+.already a:hover {
+    color: rgb(8, 80, 248);
+}
+
+.end-head {
+    font-size: small;
+}
+
+.fa-circle {
+    color: rgb(8, 80, 248);
+}
+
+.col-6 img {
+    align-items: center;
+}
+
+.line {
+    margin-bottom: 10vh;
+    border-bottom: 1px solid rgb(198, 196, 196);
+    width: 40%;
+    margin: auto;
+}
+
+
+/* Body Content goes here */
+section {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+footer .container-fluid {
+    background-color: rgb(8, 80, 248);
+    ;
+}
+
+footer .fa-circle {
+    color: white;
+}
+
+.try {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.started {
+    font-weight: 700;
+}
+
+.free {
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: min(2vw, 15px);
+}
+
+.started-btn {
+    display: inline-block;
+    max-width: 40%;
+}
