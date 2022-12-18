@@ -1,9 +1,10 @@
-.button1 {
+#button1 {
       margin-left: 100px;
       }
 
-#signuplady {
-  padding-top: 100px;
+
+body{
+  margin-top: 300px;
 }
 
 .email-icon {
@@ -16,15 +17,18 @@ p {
   margin-top: 10px;
 }
 
+
+.form {
+  margin-top:5100px;
+}
+
+  
+.image {
+  margin-top: 1000px !important;
+
+}
+
 #logo1 {
-  margin-left: 20px;
-
-}
-
-.input-group-prepend {
-  background-color: white;
-}
-
-.container {
-  margin-top:500px;
+  border: 10px solid black !important;
+  border-radius: 100px;
 }
