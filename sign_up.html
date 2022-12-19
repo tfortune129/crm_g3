@@ -21,6 +21,48 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/d0b506a827.js" crossorigin="anonymous"></script>
+    
+    <style>
+      .input-group i {
+          position: absolute;
+      }
+        
+      .input-group {
+          width: 100%;
+          margin-bottom: 10px;
+      }
+        
+      .icon {
+          padding: 10px;
+          min-width: 40px;
+      }
+        
+      .input-field {
+          width: 100%;
+          padding: 10px;
+          text-align: center;
+      
+      }
+      
+      h1{
+        text-align: center;
+      }
+
+      #button1 {
+        text-align: center;
+      
+      }
+
+      p{
+        text-align: center;
+      }
+
+      .iconfoot {
+        align-items: center;
+      }
+
+  </style>
+
   </head>
 
 
@@ -28,61 +70,53 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-4">
-                <h1>Sign Up</h1>
+                <h1><b>Sign Up</h1></b> 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 
                 <form class="form">
+                  <div style="max-width:400px;margin:auto"></div>
                   <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">
-                    <!-- <label for="inputPassword2" class="visually-hidden"></label> -->
-                    <img src="/static/images/CRM-SignUp/Page-1.png" alt="usernameicon" width="15px" height="15px" />
-                  </span>
-                  </div>
-                  <input type="username" class="form-control rounded-pill" id="inputusername" placeholder="Username" />
+                    <i class="fa-regular fa-user icon"></i>
+                  <input type="username" class="input-field rounded-pill" id="inputusername" placeholder="Username" />
                  </div>
 
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <div style="max-width:400px;margin:auto"></div>
                  <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">
-                    <!-- <label for="inputPassword2" class="visually-hidden"></label> -->
-                    <i id="email-icon" class="fa-regular fa-envelope rounded-pill" ></i>
-                </span>
-                </div>
-                  <input type="email" class="form-control rounded-pill" id="inputemail" placeholder="Email" />
+                    <i class="fa-regular fa-envelope rounded-pill icon"></i>
+                  <input type="email" class="input-field rounded-pill" id="inputemail" placeholder="Email" />
                 </div>
 
 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div style="max-width:400px;margin:auto"></div>
                 <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">
-                    <!-- <label for="inputPassword2" class="visually-hidden"></label> -->
-                    <i id="password-icon" class="fa-solid fa-lock"></i>
-                  </span>
-                 </div>
-                    <input type="password" class="form-control rounded-pill" id="inputpassword" placeholder="Password" />
+                  <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" class="input-field rounded-pill icon" id="inputpassword" placeholder="Password" />
                  </div>
                 </form>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
 
 
-              <div id="button1"><button class="btn btn-primary rounded-pill">Sign Up</button>
+              <div id="button1"><button class="btn btn-primary rounded-pill align-items-center">&nbsp;&nbsp; Sign Up &nbsp;&nbsp;</button>
               </div>
-              &nbsp;
-            <p><b>Or sign up with social platforms ;)</b> </p>
+              &nbsp;&nbsp;
+            <p><b>Or sign up with social platforms :D</b> </p>
             
-          <div class="logos">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://twitter.com/explore"><i id="logo1" class="fa-brands fa-twitter"></i></a>
+            
+            <!-- add blank space to push over icons (css/html code not working :/) -->
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <a title="Twitter" href="https://twitter.com/explore"><i class="fa-brands fa-twitter icon-medium iconfoot"></i></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.facebook.com/"><i id="logo2" class="fa-brands fa-facebook"></i></a>
+            <a title="Facebook" href="https://www.facebook.com/"><i class="fa-brands fa-facebook iconfoot"></i></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.google.com/"><i id="logo3" class="fa-brands fa-google"></i></a>
+            <a title="Google" href="https://www.google.com/"><i class="fa-brands fa-google iconfoot"></i></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/feed/"><i id="logo4" class="fa-brands fa-linkedin-in"></i></a>
-          </div>
+            <a title="Linkedin" href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin-in iconfoot"></i></a>
+          
 
 
             </div>
@@ -99,7 +133,3 @@
 
 </html>
 
-
-<!-- do get rounded edges, put class rounded -->
-
-<!-- how to merge to turn in -->
