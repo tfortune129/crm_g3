@@ -104,11 +104,27 @@ section {
     display: block;
     text-align: center;
 }
-/* .thumb {
-    display:flex;
-    justify-content: space-around;
-} */
+.middle-icons {
+    height: 33%;
+}
+.middle-section {
+    height: 33%;
+}
+.bottom-section {
+    height: 33%;
+}
+#icon-bg {
+    height: 50px;
+    padding-top: 15px;
+}
 
+.payments-text {
+    margin-bottom: 20px;
+}
+.bottom-half img {
+    width: 10%;
+    height: 100px;
+}
 
 footer .container-fluid {
     background-color: rgb(8, 80, 248);
